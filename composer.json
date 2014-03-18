@@ -1,0 +1,27 @@
+{
+    "name": "dhardtke/assetie",
+    "description": "",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Dominik Hardtke",
+            "email": "dominik@hardtke.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+		"kriswallsmith/assetic": "dev-master",
+		"nitra/php-min": "@dev",
+		"patchwork/jsqueeze": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Dhardtke\\Assetie\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
