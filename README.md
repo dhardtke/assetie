@@ -1,5 +1,5 @@
 #Assetie
-## What is Asetie?
+## What is Assetie?
 Assetie is my laravel package for managing assets in Laravel 4.
 It uses [Kris Wallsmith's](https://github.com/kriswallsmith) great Assetic for it's minifying and compressing of asset files.
 
