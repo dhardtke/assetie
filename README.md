@@ -86,7 +86,7 @@ To create your own, first collection you have to use the following code inside o
     	]);
     });
 
-You can now start using this collection by calling this function in your template (typically in your <head>):
+You can now start using this collection by calling this function in your template (typically in your `<head>`):
 
     {{ Collection::stylesheets("base"}}
     {{ Collection::javascripts("base"}}
